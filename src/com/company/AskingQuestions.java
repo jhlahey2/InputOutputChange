@@ -17,13 +17,13 @@ public class AskingQuestions
         Scanner keyboard = new Scanner(System.in);
 
 //        int num1, num2, num3;
-        double num1, num2;
+        double num1, num2;  //doubles are used so that two temps that are one degree apart can be averaged
 
         System.out.print( "First temperature? " );
-        num1 = keyboard.nextInt();
+        num1 = keyboard.nextInt();  //casts int to double
 
         System.out.print( "Second temperature? " );
-        num2 = keyboard.nextInt();
+        num2 = keyboard.nextInt();  //casts int to double
 
 //        System.out.println("The max value is : " + Math.max(num1, num2));
         System.out.println("The average value is " + ((num1 + num2) / 2));
